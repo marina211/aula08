@@ -9,6 +9,12 @@ body{
 	background-size:100vw 100vh;
 	background-attachment: fixed;
 }
+body{
+	background-image:url(../img/fundo.musica.jpg);
+	background-repeat: no-repeat;
+	background-size:100vw 100vh;
+	background-attachment: fixed;
+}
 section{
 	display: flex;
 	justify-content: center;
@@ -95,6 +101,7 @@ section.conteudo{
 	font-family:"Lucida Sans",sans-serif;
 	font-size: 1.5vw;
 	color: black;
+	text-align: justify;
 }
 section.link{
 	width: 90vw;
@@ -153,4 +160,87 @@ section.mapa{
 section.mapa iframe{
 	width: 60%;
 	height: 100%;
+}
+section.verde{
+	width: 90vw;
+	height: 10vh;
+	background-color: green;
+	margin-left: 5vw;
+}
+section.verde h1{
+	color: white;
+}
+section.laranja{
+	width: 90VW;
+	margin-left: 5vw;
+	height: 60vh;
+	margin-top: 3vh;
+	background-color: orange;
+}
+#azulzinha{
+	width: 50%;
+	height: 100%;
+	background-color: cyan;
+}
+#azul{
+	width: 50%;
+	height: 100%;
+	background-color: darkblue;
+	flex-direction: column;
+}
+#amarela{
+	width: 100%;
+	height: 50%;
+	background-color: yellow;
+	flex-direction: row;
+}
+#vermelha{
+	width: 100%;
+	height: 50%;
+	background-color: red;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+}
+#roxa{
+	width: 50%;
+	height: 100%;
+	background-color: purple;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+#rosa{
+	width: 50%;
+	height: 100%;
+	background-color: pink;
+}
+section.preta{
+	width: 90vw;
+	height: 5vh;
+	margin-left: 5vw;
+	margin-top: 3vh;
+	background-color: black;
+}
+section.preta h1{
+	color: white;
+	font-family: "Trebuchet",cursive ;
+}
+#roxa img{
+	width: 80%;
+	height: 80%;
+}
+section.descricao{
+	width: 100vw;
+	height: 80vh;
+}
+#outra{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	height: 100%;
+	width:30%;
 }
